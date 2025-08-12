@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Beasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">BeasiswaKu</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="menu">
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Beasiswa</a></li>
+      <li><a href="#">Tentang Kami</a></li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Siap Raih Mimpimu?</h1>
+    <p>Daftar dan dapatkan kesempatan kuliah dengan beasiswa penuh</p>
+    <a href="#">Daftar Sekarang</a>
+  </section>
+
+  <section class="updates">
+    <h2>Update Terbaru</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Pendaftaran Dibuka</h3>
+        <p>Pendaftaran beasiswa tahun 2025 kini telah dibuka. Segera persiapkan dokumen kamu!</p>
+      </div>
+      <div class="card">
+        <h3>Webinar Persiapan</h3>
+        <p>Ikuti webinar gratis untuk mengetahui tips lolos seleksi beasiswa internasional.</p>
+      </div>
+      <div class="card">
+        <h3>Pengumuman Seleksi</h3>
+        <p>Hasil seleksi tahap pertama akan diumumkan pada tanggal 15 Mei 2025.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BeasiswaKu. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('menu').classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,3 +1,1 @@
-# WebBeasiswa
-Ini adalah website beasiswa
-Ini update ke dua
+Saya akan menggunakan repository ini untuk belajar Git dan Github
